@@ -58,3 +58,32 @@
     width: 30vw;
     height: 60vh;
 }
+#select {
+    height: 50vw;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#select button {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 40vw;
+    height: 40vh;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    font-size: 80px;
+}
+
+#select button:hover {
+    cursor: pointer;
+}
+
+#select>form:nth-child(1)>button {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url("../img/rainbow-six-siege-blog.jpg");
+}
+
+#select>form:nth-child(2)>button {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url("../img/r6-maps-bank.webp");
+}
