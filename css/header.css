@@ -1,0 +1,22 @@
+header {
+    width: 100vw;
+    height: 10vh;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.75);
+    position: fixed;
+    top: 0;
+}
+header>div>img {
+    margin-left: 50px;
+    width: 85px;
+}
+header>div:nth-child(2) {
+    width: 40vw;
+    justify-content: space-around;
+    align-items: center;
+}
+header div a {
+    color: white;
+    text-decoration: none;
+}
