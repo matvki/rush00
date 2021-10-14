@@ -1,6 +1,5 @@
 footer {
     background-color: black;
-    height: 30vh;
     color: white;
     text-align: center;
 }
@@ -27,4 +26,5 @@ footer a {
 
 footer p{
     margin-top: 50px;
+    padding-bottom: 20px;
 }

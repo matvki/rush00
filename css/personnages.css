@@ -1,0 +1,96 @@
+#personnages {
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 50px 0;
+    background-color: #959595;
+}
+h2 {
+    text-align: center;
+
+}
+#personnages h2 {
+    margin-bottom: 50px;
+}
+#personnages>div {
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#allPerso {
+    background-color: black;
+    width: 8vw;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#allPerso img:last-child {
+    width: 70px;
+    height: 70px;
+    transform: rotate(90deg);
+}
+
+#onePerso {
+    width: 80vw;
+    background-color: #a4a4a4;
+}
+
+#onePerso>div {
+    justify-content: center;
+    align-items: center;
+}
+
+#perso {
+    background-image: url("../img/r6s-operators-list-osa.webp");
+    background-position: top;
+    background-size: cover;
+    width: 15vw;
+    height: 35vh;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+#equipement {
+    width: 50vw;
+}
+
+#perso img {
+    width: 70px;
+    height: 70px;
+}
+
+#armes {
+    width: 55vw;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#first , #second {
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+#gadget {
+    text-align: center;
+}
+
+#gadget>div {
+    width: 50vw;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#gadget>div>img {
+    width: 250px;
+}
+
+#bio {
+    width: 70vw;
+    margin: 0 auto;
+}
+#bio>h3 {
+    margin-top: 50px;
+}
+#last {
+    padding-bottom: 50px;
+}
