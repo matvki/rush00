@@ -1,0 +1,60 @@
+#head {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url("../img/BannerImage.jfif");
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    align-items: center;
+    justify-content: center;
+}
+
+#head > h1 {
+    font-size: 80px;
+    text-align: center;
+}
+
+#news {
+    height: 60vh;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+}
+
+#txt {
+    color: white;
+    background-color: black;
+    width: 50vw;
+}
+
+#txt > h2 {
+    text-align: center;
+    font-size: 100px;
+    margin-bottom: 50px;
+}
+
+#txt p {
+    margin: 5px 0;
+}
+
+#txt > p:nth-child(2) {
+    font-size: 75px;
+}
+
+#txt > p:nth-child(3) {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+#txt a {
+    font-size: 40px;
+    color: white;
+    text-decoration: none;
+}
+
+#img {
+    background-image: url("../img/Doktor_s_Curse_cover.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 30vw;
+    height: 60vh;
+}
