@@ -22,12 +22,15 @@ h2 {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding: 20px 0 10px;
 }
 
 #allPerso img:last-child {
-    width: 70px;
-    height: 70px;
+    width: 6vw;
     transform: rotate(90deg);
+}
+#allPerso img {
+    width: 6vw;
 }
 
 #onePerso {
@@ -93,4 +96,13 @@ h2 {
 }
 #last {
     padding-bottom: 50px;
+}
+
+@media screen and (max-width: 768px) {
+    #armes {
+        display: block;
+    }
+    #gadget div {
+        display: block;
+    }
 }

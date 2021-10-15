@@ -13,10 +13,10 @@
 }
 
 #news {
-    height: 60vh;
     align-items: center;
     justify-content: space-around;
     background-color: black;
+    padding: 20px 0;
 }
 
 #txt {
@@ -60,7 +60,7 @@
 }
 
 #select {
-    height: 40vw;
+    margin: 50px 0;
     align-items: center;
     justify-content: space-around;
 }
@@ -74,7 +74,7 @@
     justify-content: center;
     align-items: center;
     border: none;
-    font-size: 80px;
+    font-size: 40px;
 }
 
 #select > form:nth-child(1) > button {
@@ -120,4 +120,21 @@ button {
 
 #mail button > img {
     height: 5vh;
+}
+
+@media screen and (max-width: 768px) {
+    #select button {
+        font-size: 15px;
+    }
+    input {
+        width: 80vw;
+        height: 6vh;
+    }
+    button {
+        height: 6vh;
+        width: 6vh;
+    }
+    #mail button > img {
+        height: 4vh;
+    }
 }
