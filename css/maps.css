@@ -1,6 +1,6 @@
 #maps {
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-start;
     padding: 50px 0;
     background-color: #959595;
 }
@@ -47,12 +47,15 @@ h2 {
 #oneMap {
     width: 80vw;
     background-color: #a4a4a4;
-    height: 70vh;
 }
 
 #oneMap > div {
     justify-content: center;
     align-items: center;
+}
+
+#oneMap > div > img {
+    width: 70vw;
 }
 
 #bio {
@@ -61,5 +64,5 @@ h2 {
 }
 
 #bio p {
-    padding-bottom: 50px;
+    padding: 50px 0;
 }
